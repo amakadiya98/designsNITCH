@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'PowerGrotesk';
+  src: url('./assets/fonts/PowerGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-thin.otf') format('opentype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-extralight.otf') format('opentype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-light.otf') format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-regular.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-medium.otf') format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-demibold.otf') format('opentype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-bold.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Articulatcf';
+  src: url('./assets/fonts/Articulatcf-extrabold.otf') format('opentype');
+  font-weight: 800;
+}
+
+.small-banner-btn{
+  padding: 14px 30px;
+  font-family: 'Articulatcf';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 90px;
+  transition: all 0.4s;
+  width: fit-content;
+}
+.small-banner-btn.yellow{
+  background: #E9FE97;
+  color: #111111;
+}
+.small-banner-btn.yellow:hover{
+  background-color: #111111;
+  color: #E9FE97;
+  transform: scale(1.05);
+}
+.small-banner-btn.black{
+  background-color: #111111;
+  color: #E9FE97;
+}
+.small-banner-btn.black:hover{
+  background-color: #E9FE97;
+  color: #111111;
+  transform: scale(1.1);
+}
+.small-banner-btn.purple{
+  color: #C7D0FF;
+  background-color: #111111;
+  width: fit-content;
+}
+.small-banner-btn.purple:hover{
+  background-color: #E9FE97;
+  color: #111111;
+}
+.small-banner-btn.gray{
+  color: #F6F6F6;
+  background-color: #111111;
+}
+.small-banner-btn.yellow-text{
+  color: #E9FE97;
+}
+.small-banner-btn.yellow-text:hover{
+  background-color: #111;
+  color: #E9FE97;
+}
+.common-spacing{
+  padding-top: 88px;
+}
+.common-spacing-bottom{
+  padding-bottom: 88px;
+}
+.section-title {
+  margin-bottom: 24px;
+}
+.section-title h6{
+  font-family: 'PowerGrotesk';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  color: #111111;
+}
+.section-title a{
+  font-family: 'Articulatcf';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: #111111;
+  text-decoration: underline;
+}
+/* top-bar css  */
+.top-sticky-part{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+}
+.scrolled{
+  background-color: #111111;
+}
+.top-bar{
+  background-color: #E9FE97;
+  padding: 4px 0;
+}
+.top-bar .link-part{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: right;
+  color: #111111;
+  font-family: 'Articulatcf';
+}
+.top-bar .link-part a:hover{
+  text-decoration: underline;
+}
+/* hedaer part  */
+.navbar-part{
+  background-color: transparent;
+  padding: 20px 0;
+}
+.navbar-part .nav-link, .dropdown-btn button{
+  font-family: 'PowerGrotesk';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1.5%;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar-part .nav-link:hover{
+  text-decoration: underline;
+}
+.navbar-part .dropdown-btn .drop-down-item{
+  color: #111111;
+}
+
+
+
+
+
+
+/* banner-section  */
+
+.banner-section{
+  background-image: url('./assets/images/banner-bg.png');
+  height: 90vh;
+  padding: 120px 0 90px 0;
+  margin-top: auto;
+}
+.banner-section .banner-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 24px;
+  color: #fff;
+}
+.banner-section .banner-content h2{
+  font-family: 'PowerGrotesk';
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  text-transform: uppercase;
+  max-width: 80%;
+}
+.banner-section .banner-content p{
+  font-family: 'Articulatcf';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  margin-bottom: 10px;
+  max-width: 46%;
+}
+
+/* product section */
+.product-section img{
+  width: 100%;
+}
+.product-section .product-info{
+  color: #111111;
+  font-family: 'Articulatcf';
+  margin-left: 2px;
+}
+.product-section .product-info .product-name{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.product-section .product-info .product-price{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.product-section .product-info .sold-by{
+  font-size: 12px;
+  line-height: 20px;
+}
+/* product-category */
+.product-category .product-image{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-category .product-image img{
+  width: 100%;
+}
+.product-category .product-image .category-tag{
+  font-family: 'PowerGrotesk';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  padding: 12px 16px;
+  color: #E9FE97;
+  background-color: #111111;
+  border-radius: 100px;
+  width: fit-content;
+  position: absolute;
+  text-transform: uppercase ;
+}
+.product-category .product-image:hover .category-tag{
+  color: #111111;
+  background-color: #E9FE97;
+}
+/* feature maker section */
+.featured-maker-section{
+  padding: 74px 0;
+}
+.featured-maker-section.purple-bg{
+  background-color: #C7D0FF;
+}
+.featured-maker-section.gary-bg{
+  background-color: #F6F6F6;
+}
+.featured-maker-section.yellow-bg{
+  background-color: #E9FE97;
+}
+.featured-maker-section .text-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 70%;
+}
+.feature-maker-pot .text-part{
+  margin-left: auto;
+}
+.featured-maker-section .text-part .tag-part p{
+  padding: 4px 12px;
+  border-radius: 100px;
+  border: 2px solid #111;
+  font-family: 'PowerGrotesk';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  width: fit-content;
+}
+.featured-maker-section .feature-content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #111;
+  
+}
+.featured-maker-section .feature-content h6{
+  font-family: 'PowerGrotesk';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.featured-maker-section  .feature-content p{
+  font-family: 'Articulatcf';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.featured-maker-section  .image-part .left-img{
+  left: -12%;
+  bottom: 8%;
+}
+.featured-maker-section  .image-part .right-img{
+  right: -10%;
+  top: 8%;
+}
+.featured-maker-section.feature-maker-pot .image-part .right-img{
+  right: -8%;
+    top: 13%;
+}
+/* promo-section */
+.promo-section .image-data{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-between;
+  padding-left: 5rem;
+}
+.promo-section .image-data h6{
+  color: #fff;
+  font-family: 'PowerGrotesk';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.promo-section  img{
+  width: 100%;
+}
+.review-section .review-section-content{
+  text-align: center;
+  color: #111111;
+}
+.review-section .review-section-content h3{
+  font-family: 'PowerGrotesk';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  text-transform: uppercase
+}
+.review-section .review-section-content p{
+  font-family: 'Articulatcf';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.015em;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .container{
+    max-width: 94%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .common-spacing{
+    padding-top: 40px;
+  }
+  .common-spacing-bottom{
+    padding-bottom: 40px;
+  }
+  .banner-section{
+    height: 80vh;
+    padding: 80px 0 40px;
+  }
+  .banner-section .banner-content h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .banner-section .banner-content p{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 90%;
+  }
+  .product-category .product-image .category-tag{
+    font-size: 16px;
+    border-radius: 60px;
+    padding: 6px 18px;
+  }
+  .featured-maker-section .text-part{
+    max-width: 90%;
+  }
+  .featured-maker-section .feature-content h6{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .featured-maker-section .text-part .tag-part{
+    margin-bottom: 20px;
+  }
+  .promo-section .image-data{
+    padding-left: 2rem;
+  }
+  .feature-maker-pot .text-part{
+    margin-left: initial;
+  }
+  .review-section .review-section-content h3{
+    font-size: 18px;
+  }
+  .featured-maker-section .image-part .left-img, .featured-maker-section .image-part .right-img{
+    width: 40%;
+  }
+  .featured-maker-section .image-part{
+    overflow: hidden;
+  }
+}
